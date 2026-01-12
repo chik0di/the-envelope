@@ -15,83 +15,127 @@ export default function Resume() {
                 <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
                     <div className="top mb-1 flex items-center gap-2">
                         <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Strategic Communication</h6>
+                        <h6 className="font-bold text-2xl">Programming & Data Processing</h6>
                     </div>
 
-                    <p className="text-sm">We understand that effective communication isn&apos;t just about saying something, it&apos;s about saying the right thing in the right way to the right audience. Whether it&apos;s a donor proposal, a campaign caption, or a client brief, we communicate with clarity, purpose, and strategy. Our work ensures your message doesn&apos;t just land, it inspires action.</p>
+                    <p className="text-sm mb-3">
+                        I use Python (Pandas, PySpark) and SQL to process, transform, and analyze data at scale. From batch transformations to complex analytical queries, I write clear, efficient code designed for performance, readability, and reuse across pipelines.
+                    </p>
+
+                    <p className="text-sm">
+                        <strong>Tools:</strong> Python, Pandas, PySpark, SQL, Shell Scripting
+                    </p>
                 </div>
 
                 <div className="bg-[#FFEBD1] p-5 rounded-xl">
                     <div className="top mb-1 flex items-center gap-2">
                         <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Research & Insight Generation</h6>
+                        <h6 className="font-bold text-2xl">Analytics & Business Intelligence</h6>
                     </div>
 
-                    <p className="text-sm">From securing grants to creating social media content that resonates, we dive deep into data, trends, and audience behavior to generate insights that guide meaningful content. We don&apos;t just create, we inform, ensuring every deliverable is backed by context, relevance, and accuracy.</p>
-                </div>
+                    <p className="text-sm mb-3">
+                        I design analytics that translate raw data into actionable insight. By modeling data for reporting and connecting it to Power BI, Tableau, and Excel, I enable interactive dashboards and self-service analytics grounded in consistent business logic.
+                    </p>
 
-                <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
-                    <div className="top mb-1 flex items-center gap-2">
-                        <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Writing & Storytelling</h6>
-                    </div>
-
-                    <p className="text-sm">We blend the precision of technical writing with the emotional pull of creative storytelling. Whether it&apos;s a grant proposal, a project report, or a social impact story, we write with purpose, capturing both logic and heart. Our words don&apos;t just inform; they connect, inspire, and convert.</p>
-                </div>
-
-                <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
-                    <div className="top mb-1 flex items-center gap-2">
-                        <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Visual Thinking</h6>
-                    </div>
-
-                    <p className="text-sm">We bring a trained eye for aesthetics and user experience into every visual piece we create, whether it&apos;s a social media graphic or a branded campaign visual. We understand that design is not just about beauty, but about enhancing clarity and amplifying impact.</p>
-                </div>
-
-                <div className="bg-[#FFEBD1] p-5 rounded-xl">
-                    <div className="top mb-1 flex items-center gap-2">
-                        <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Content Strategy & Planning</h6>
-                    </div>
-
-                    <p className="text-sm">Every piece of content we produce fits into a broader objective. From managing monthly content calendars to designing project timelines, we develop thoughtful, goal-driven plans that ensure consistency, efficiency, and value delivery, without burnout or guesswork.</p>
-                </div>
-
-                <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
-                    <div className="top mb-1 flex items-center gap-2">
-                        <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Digital Literacy & Tool Proficiency</h6>
-                    </div>
-
-                    <p className="text-sm">We are well-versed in industry-standard tools like Canva, Meta Business Suite, Google Workspace, Trello, and Microsoft Office, and we quickly adapt to new platforms. This allows us to deliver quality work efficiently and collaboratively, even under pressure.</p>
-                </div>
-
-                <div className="bg-[#F2F7FC]  dark:bg-slate-900 p-5 rounded-xl">
-                    <div className="top mb-1 flex items-center gap-2">
-                        <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Time & Project Management</h6>
-                    </div>
-
-                    <p className="text-sm">With a structured, detail-oriented approach, we manage multiple tasks, people, and deadlines without letting quality slip. Whether leading a project, managing content production, or coordinating a campaign, we deliver results on time and within scope.</p>
-                </div>
-
-                <div className="bg-[#FFEBD1] p-5 rounded-xl">
-                    <div className="top mb-1 flex items-center gap-2">
-                        <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Audience Awareness & Empathy</h6>
-                    </div>
-
-                    <p className="text-sm">We craft communication and content strategies that center on real people. From teenage audiences to technical donors, we shape messaging to resonate with their lived realities, aspirations, and attention spans, making every word, image, or post feel personal and relevant.
+                    <p className="text-sm">
+                        <strong>Tools:</strong> Power BI, Tableau, Microsoft Excel
                     </p>
                 </div>
 
                 <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
                     <div className="top mb-1 flex items-center gap-2">
                         <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Adaptability & Creative Problem-Solving</h6>
+                        <h6 className="font-bold text-2xl">Database & Query Optimization</h6>
                     </div>
 
-                    <p className="text-sm">Whether adjusting a grant strategy mid-cycle or reworking a social media plan after a platform change, we pivot quickly and with purpose. We see challenges not as roadblocks, but as invitations to innovate, and we always come prepared with solutions.</p>
+                    <p className="text-sm mb-3">
+                        I work comfortably across relational databases, designing schemas, writing optimized queries, and managing data across environments. My focus is on data integrity, performance, and ensuring analytical workloads don’t compromise operational systems.
+                    </p>
+
+                    <p className="text-sm">
+                        <strong>Tools:</strong> PostgreSQL, MySQL, SQL Server, Microsoft Access
+                    </p>
+                </div>
+
+                <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
+                    <div className="top mb-1 flex items-center gap-2">
+                        <FiPocket size={25} />
+                        <h6 className="font-bold text-2xl">Data Warehousing & Transformation</h6>
+                    </div>
+
+                    <p className="text-sm mb-3">
+                        I build modern analytical warehouses with a layered approach, transforming raw data into trusted analytical models. Using dbt, I enforce version-controlled transformations, testing, and documentation to ensure consistency across teams.
+                    </p>
+
+                    <p className="text-sm">
+                        <strong>Tools:</strong> Snowflake, Amazon Redshift, dbt
+                    </p>
+                </div>
+
+                <div className="bg-[#FFEBD1] p-5 rounded-xl">
+                    <div className="top mb-1 flex items-center gap-2">
+                        <FiPocket size={25} />
+                        <h6 className="font-bold text-2xl">Orchestration & Automation</h6>
+                    </div>
+
+                    <p className="text-sm mb-3">
+                        I automate data movement and transformation using orchestrators and ingestion tools designed for reliability and scale. My pipelines are monitored, repeatable, and built to handle real-world failures without manual intervention.
+                    </p>
+
+                    <p className="text-sm">
+                        <strong>Tools:</strong> Apache Airflow, Airbyte
+                    </p>
+                </div>
+
+                <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
+                    <div className="top mb-1 flex items-center gap-2">
+                        <FiPocket size={25} />
+                        <h6 className="font-bold text-2xl">Cloud, Infrastructure & DevOps Practices</h6>
+                    </div>
+
+                    <p className="text-sm mb-3">
+                        I treat data systems as infrastructure. Using containerization, version control, and infrastructure-as-code, I build reproducible environments that support collaboration, deployment, and long-term maintainability.
+                    </p>
+
+                    <p className="text-sm">
+                        <strong>Tools:</strong> Docker, Linux (Ubuntu), Terraform, Git, GitHub
+                    </p>
+                </div>
+
+                <div className="bg-[#F2F7FC]  dark:bg-slate-900 p-5 rounded-xl">
+                    <div className="top mb-1 flex items-center gap-2">
+                        <FiPocket size={25} />
+                        <h6 className="font-bold text-2xl">Documentation, Governance & Best Practices</h6>
+                    </div>
+
+                    <p className="text-sm mb-3">
+                        I create clear documentation, naming conventions, and standards that improve collaboration and reduce onboarding time. From data dictionaries to lineage and transformation logic, I prioritize clarity and long-term maintainability.
+                    </p>
+
+                </div>
+
+                <div className="bg-[#FFEBD1] p-5 rounded-xl">
+                    <div className="top mb-1 flex items-center gap-2">
+                        <FiPocket size={25} />
+                        <h6 className="font-bold text-2xl">Technical Communication & Stakeholder Alignment</h6>
+                    </div>
+
+                    <p className="text-sm mb-3">
+                        I translate complex data systems and metrics into clear, actionable explanations for non-technical stakeholders. By aligning engineers, analysts, and business teams early, I reduce rework and ensure data solutions solve the right problems.
+                    </p>
+
+                </div>
+
+                <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
+                    <div className="top mb-1 flex items-center gap-2">
+                        <FiPocket size={25} />
+                        <h6 className="font-bold text-2xl">Ownership, Reliability & Delivery</h6>
+                    </div>
+
+                    <p className="text-sm mb-3">
+                        I take end-to-end ownership of data systems, from design through deployment and maintenance. I prioritize reliability, accountability, and on-time delivery, treating data infrastructure as a critical business asset.
+                    </p>
+
                 </div>
 
 

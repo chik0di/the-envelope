@@ -7,14 +7,11 @@ export default function About() {
     return (
         <main className='bg-white dark:bg-slate-700 w-full h-[36rem] rounded-3xl mt-2 p-7 md:p-14 overflow-hidden overflow-y-auto lg:overflow-y-hidden hover:overflow-y-auto hover:shadow-lg duration-700'>
             <h1 className={`capitalize font-bold text-4xl flex items-center gap-3 ${luckiest.className}`}>About Me <span className="text-6xl"></span></h1>
-            <p className="mt-4">Are you looking for a reliable writing and editing solution without breaking the bank? Do words often confuse you and give you a headache?
-                Does writing make you cry because stringing the words together is always overbearing?
-                Do you need help with writing and editing perfect content?
-                Does your work schedule make it a little difficult for you to get things done?
-                <p>Introducing Pearl and Associates, the virtual assistant who can do it all!
-                    We are revolutionary virtual assistants capable of writing and editing content with unparalleled accuracy and speed.</p>
-                <p>Forget spending hours trying to perfect your writing or worrying about grammar and punctuation: we are passionate and excellent creative and technical writers who will save you time and effort while ensuring your work is polished and professional.
-                    Stay tuned!</p></p>
+            <p className="mt-4">I design data systems the way architects design cities: with structure, intent, and the expectation that they will scale long after the first brick is laid. 
+                I am a Data & Analytics Engineer who lives at the intersection of raw data chaos and executive-level clarity. My work spans the full lifecycle of data—from extraction and orchestration to modeling, governance, and downstream analytics—with a relentless focus on correctness, performance, and long-term maintainability.
+
+                <p>I build production-grade pipelines, not tutorials. Whether it’s scraping and structuring messy public data, orchestrating workflows, transforming at scale, or modeling analytical warehouses. I treat data as infrastructure —not an afterthought. My pipelines are observable, documented, and designed to survive real-world failure modes.</p>
+                <p>Beyond implementation, I care deeply about data architecture, naming conventions, schema discipline, and lineage. I’ve designed warehouses for public-sector institutions, built end-to-end ETL systems from scratch, and published high-value datasets used by analysts and machine learning practitioners worldwide as a Kaggle Datasets Expert.</p></p>
 
             <div className="icons flex gap-3 mt-3 lg:hidden">
                 <Link href={'https://www.facebook.com/pearl.ekwe777'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
@@ -44,48 +41,57 @@ export default function About() {
                 <div className="bg-[#ffff] p-5 rounded-xl">
                     <div className="top mb-1">
                         <FiDroplet />
-                        <h6 className="font-bold text-2xl">Grant / Technical Writing</h6>
+                        <h6 className="font-bold text-2xl">Data Engineering & Pipeline Orchestration</h6>
                     </div>
 
-                    <p className="text-sm">We craft compelling proposals and technical documents that clearly communicate your mission and value, designed to capture funders&apos; attention and secure the resources you need to scale your impact.
+                    <p className="text-sm">I design and build end-to-end data pipelines that move raw, unreliable data into clean, analytics-ready assets. From web scraping and API ingestion to batch and scheduled workflows, I use tools like Python, SQL, and Apache Airflow to create pipelines that are resilient, observable, and built for production—not demos.
                     </p>
                 </div>
 
                 <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
                     <div className="top mb-1">
                         <FiDroplet />
-                        <h6 className="font-bold text-2xl">Social Media Management</h6>
+                        <h6 className="font-bold text-2xl">Analytics Engineering & Data Modeling</h6>
                     </div>
 
-                    <p className="text-sm">From strategy to execution, we help you build a consistent, engaging online presence that connects with your audience, strengthens your brand, and drives real growth, without the overwhelm.
-                    </p>
+                    <p className="text-sm">I turn data into structure. Using dbt, dimensional modeling, and warehouse-first design, I build fact and dimension models that are intuitive for analysts, performant at scale, and governed by clear contracts. My focus is always on consistency, lineage, and trust, so metrics mean the same thing everywhere they’re used.</p>
                 </div>
 
                 <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
                     <div className="top mb-1">
                         <FiDroplet />
-                        <h6 className="font-bold text-2xl">Visual Content</h6>
+                        <h6 className="font-bold text-2xl">Cloud Data Warehousing & Architecture</h6>
                     </div>
 
-                    <p className="text-sm">We produce high-quality, eye-catching visuals that tell your story, amplify your message, and stop the scroll—because good design isn&apos;t just beautiful, it&apos;s powerful communication.</p>
+                    <p className="text-sm">I architect modern data platforms on Snowflake, SQL Server, and cloud-native stacks, designing schemas, layers (bronze/silver/gold), and environments that scale with the business. Every decision balances performance, cost, and future growth—because good architecture should age well.
+                    </p>
                 </div>
 
                 <div className="bg-[#ffff] p-5 rounded-xl">
                     <div className="top mb-1">
                         <FiDroplet />
-                        <h6 className="font-bold text-2xl">Creative Writing</h6>
+                        <h6 className="font-bold text-2xl">Data Quality, Testing & Observability</h6>
                     </div>
 
-                    <p className="text-sm">Whether it&apos;s brand storytelling, campaign messaging, or meaningful narratives, we turn ideas into words that move people because emotion and authenticity are what truly resonate. </p>
+                    <p className="text-sm">I treat data quality as a first-class concern. From schema tests and freshness checks to pipeline monitoring and alerting, I build systems that fail loudly and early, ensuring stakeholders can trust the numbers before they ever reach a dashboard.</p>
                 </div>
 
                 <div className="bg-[#ffff] p-5 rounded-xl">
                     <div className="top mb-1">
                         <FiDroplet />
-                        <h6 className="font-bold text-2xl">Project Management</h6>
+                        <h6 className="font-bold text-2xl">Business Intelligence & Decision Enablement</h6>
                     </div>
 
-                    <p className="text-sm">We bring structure, clarity, and momentum to your vision, delivering projects on time, on budget, and with excellence, so you can focus on what matters most.</p>
+                    <p className="text-sm">I deliver analytics that support real decisions, not vanity metrics. By connecting clean, well-modeled data to Power BI, I enable interactive dashboards, executive reporting, and self-service analytics grounded in a single source of truth. </p>
+                </div>
+
+                <div className="bg-[#F2F7FC] dark:bg-slate-900 p-5 rounded-xl">
+                    <div className="top mb-1">
+                        <FiDroplet />
+                        <h6 className="font-bold text-2xl">Documentation, Standards & Data Governance</h6>
+                    </div>
+
+                    <p className="text-sm">I document systems so they outlive the person who built them. From data dictionaries and lineage to naming conventions and modeling standards, I create clarity around how data is produced, defined, and used —reducing friction, rework, and institutional risk.</p>
                 </div>
             </div>
         </main>

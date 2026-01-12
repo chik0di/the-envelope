@@ -21,7 +21,7 @@ const Navbar = () => {
         <ToastContainer />
             <main>
                 <section className="w-full flex justify-between">
-                    <h1 className={`text-3xl ${pacifico.className}`}>Pearl <span className='text-orange-500'>Ekwe</span></h1>
+                    <h1 className={`text-3xl ${pacifico.className}`}>Chikodi <span className='text-orange-500'>Obu</span></h1>
                     <div className="theme bg-[#EBF2FA] dark:bg-slate-700 w-10 h-10 rounded-full flex justify-center items-center border-2 border-gray-200 dark:border-gray-500 cursor-pointer" onClick={() => toast.info('Theme is dependent on your system')}>
                         {/* <span className='text-2xl hover:animate-pulse hover:-skew-y-6 transition duration-500 hover:scale-125'>🕶️</span> */}
                         <IoGlasses className='text-2xl hover:animate-pulse hover:-skew-y-6 transition duration-500 hover:scale-125 dark:text-white' />
@@ -42,7 +42,7 @@ const Navbar = () => {
 
                     <Link href={'/work'} className={`w-96 h-14 dark:bg-slate-700 dark:text-slate-200 rounded-2xl cursor-pointer hover:shadow-lg duration-700 items-center flex flex-col justify-center ${active('/work')}`}>
                         <FiBriefcase size={20} />
-                        <p className="text-xs capitalize">Work</p>
+                        <p className="text-xs capitalize">Projects</p>
                     </Link>
 
                     <Link href={'/contact'} className={`w-96 h-14 dark:bg-slate-700 dark:text-slate-200 rounded-2xl cursor-pointer hover:shadow-lg duration-700 items-center flex flex-col justify-center ${active('/contact')}`}>
