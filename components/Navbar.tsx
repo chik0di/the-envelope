@@ -1,14 +1,21 @@
 'use client'
 
-import { Pacifico } from 'next/font/google'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-const pacifico = Pacifico({ subsets: ['latin'], weight: ['400'] })
 import { FiBriefcase, FiFileText, FiHome, FiMessageCircle } from 'react-icons/fi'
 import {  IoGlasses } from 'react-icons/io5'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { toast } from 'react-toastify'
+
+// import localFont from 'next/font/local';
+
+// export const pacifico = localFont({
+//   src: '/fonts/Pacifico-Regular.ttf', 
+//   variable: '--font-pacifico',
+//   display: 'swap',
+// });
+
 
 const Navbar = () => {
     const pathname = usePathname()
@@ -21,7 +28,7 @@ const Navbar = () => {
         <ToastContainer />
             <main>
                 <section className="w-full flex justify-between">
-                    <h1 className={`text-3xl ${pacifico.className}`}>Chikodi <span className='text-orange-500'>Obu</span></h1>
+                    <h1 className={`text-3xl font-pacifico`}>Chikodi <span className='text-orange-500'>Obu</span></h1>
                     <div className="theme bg-[#EBF2FA] dark:bg-slate-700 w-10 h-10 rounded-full flex justify-center items-center border-2 border-gray-200 dark:border-gray-500 cursor-pointer" onClick={() => toast.info('Theme is dependent on your system')}>
                         {/* <span className='text-2xl hover:animate-pulse hover:-skew-y-6 transition duration-500 hover:scale-125'>🕶️</span> */}
                         <IoGlasses className='text-2xl hover:animate-pulse hover:-skew-y-6 transition duration-500 hover:scale-125 dark:text-white' />

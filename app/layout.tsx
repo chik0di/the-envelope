@@ -3,6 +3,19 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Raleway, Rubik } from 'next/font/google'
 // import Store from '@/Context/store'
+import localFont from 'next/font/local';
+
+const pacifico = localFont({
+  src: '/fonts/Pacifico-Regular.ttf',
+  variable: '--font-pacifico',
+  display: 'swap',
+})
+
+const luckiestGuy = localFont({
+  src: '/fonts/Luckiest_Guy-Regular.ttf',
+  variable: '--font-luckiest-guy',
+  display: 'swap',
+})
 
 const raleway = Raleway({ subsets: ['latin'] })
 
