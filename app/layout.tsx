@@ -12,7 +12,7 @@ const pacifico = localFont({
 })
 
 const luckiestGuy = localFont({
-  src: '/fonts/Luckiest_Guy-Regular.ttf',
+  src: '/fonts/LuckiestGuy-Regular.ttf',
   variable: '--font-luckiest-guy',
   display: 'swap',
 })
@@ -21,7 +21,7 @@ const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Chikodi Obu',
-  description: 'This is Chikodi Obu official portfolio website.',
+  description: 'This is the official portfolio website of Chikodi Obu.',
 }
 
 export default function RootLayout({
