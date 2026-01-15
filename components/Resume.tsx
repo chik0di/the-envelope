@@ -30,14 +30,14 @@ export default function Resume() {
                 <div className="bg-[#FFEBD1] p-5 rounded-xl">
                     <div className="top mb-1 flex items-center gap-2">
                         <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Analytics & Business Intelligence</h6>
+                        <h6 className="font-bold text-2xl text-gray-500">Analytics & Business Intelligence</h6>
                     </div>
 
-                    <p className="text-sm mb-3">
+                    <p className="text-sm mb-3 text-black">
                         I design analytics that translate raw data into actionable insight. By modeling data for reporting and connecting it to Power BI, Tableau, and Excel, I enable interactive dashboards and self-service analytics grounded in consistent business logic.
                     </p>
 
-                    <p className="text-sm">
+                    <p className="text-sm text-black">
                         <strong>Tools:</strong> Power BI, Tableau, Microsoft Excel
                     </p>
                 </div>
@@ -75,14 +75,14 @@ export default function Resume() {
                 <div className="bg-[#FFEBD1] p-5 rounded-xl">
                     <div className="top mb-1 flex items-center gap-2">
                         <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Orchestration & Automation</h6>
+                        <h6 className="font-bold text-2xl text-gray-500">Orchestration & Automation</h6>
                     </div>
 
-                    <p className="text-sm mb-3">
+                    <p className="text-sm mb-3 text-black">
                         I automate data movement and transformation using orchestrators and ingestion tools designed for reliability and scale. My pipelines are monitored, repeatable, and built to handle real-world failures without manual intervention.
                     </p>
 
-                    <p className="text-sm">
+                    <p className="text-sm text-black">
                         <strong>Tools:</strong> Apache Airflow, Airbyte
                     </p>
                 </div>
@@ -117,10 +117,10 @@ export default function Resume() {
                 <div className="bg-[#FFEBD1] p-5 rounded-xl">
                     <div className="top mb-1 flex items-center gap-2">
                         <FiPocket size={25} />
-                        <h6 className="font-bold text-2xl">Technical Communication & Stakeholder Alignment</h6>
+                        <h6 className="font-bold text-2xl text-gray-500">Technical Communication & Stakeholder Alignment</h6>
                     </div>
 
-                    <p className="text-sm mb-3">
+                    <p className="text-sm mb-3 text-black">
                         I translate complex data systems and metrics into clear, actionable explanations for non-technical stakeholders. By aligning engineers, analysts, and business teams early, I reduce rework and ensure data solutions solve the right problems.
                     </p>
 

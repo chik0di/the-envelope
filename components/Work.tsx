@@ -24,13 +24,13 @@ const Work = () => {
                     <div className="flex justify-between items-center">
                         <div className="top mt-2 flex items-center gap-2 hover:translate-y-1 transition duration-700 hover:-skew-x-6">
                             <FiLink2 size={22} />
-                            <Link href={'https://github.com/chik0di/coretelecoms-data-platform'} target='_blank' className="font-bold text-lg">Unified Customer Experience Analytics Platform</Link>
+                            <Link href={'https://github.com/chik0di/coretelecoms-data-platform'} target='_blank' className="font-bold text-lg text-gray-500">Unified Customer Complaint Analytics Platform</Link>
                         </div>
                         <Link href={'https://github.com/chik0di/coretelecoms-data-platform'} target='_blank'></Link>
                     </div>
 
                     <p className="text-sm mb-3 text-black">
-                        Architected an end-to-end customer complaint analytics platform that unified telecom complaint, interaction, and customer data into a single source of truth for churn and customer experience insights.
+                        Delivered a complaint-first analytics platform establishing a single source of truth for complaint trends, service failures, and their downstream impact on customer experience and churn. This empowered business teams to move from reactive issue handling to proactive, data-driven improvements in service quality and customer retention.
                     </p>
                     
                     <p className="text-sm text-black">
@@ -67,7 +67,7 @@ const Work = () => {
                     <div className="flex justify-between items-center">
                         <div className="top mt-2 flex items-center gap-2 hover:translate-y-1 transition duration-700 hover:-skew-x-6">
                             <FiLink2 size={22} />
-                            <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank' className="font-bold text-lg">Database Design and Implementation for Movie Production Companies in Europe</Link>
+                            <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank' className="font-bold text-lg text-gray-500">Database Design and Implementation for Movie Production Companies in Europe</Link>
                         </div>
 
                         <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank'></Link>
@@ -78,7 +78,7 @@ const Work = () => {
                     </p>
                     
                     <p className="text-sm text-black">
-                            <strong>Stack:</strong> Python, PostgreSQL, Google Sheets, Terraform, AWS SSM, Amazon S3, Snowflake, dbt, Apache Airflow, Docker, Power BI
+                            <strong>Stack:</strong> SQL, Python, Microsoft Access, Power BI
                     </p>
 
                     <div className="w-full flex justify-center gap-4">
@@ -111,7 +111,7 @@ const Work = () => {
                     <div className="flex justify-between items-center">
                         <div className="top mt-2 flex items-center gap-2 hover:translate-y-1 transition duration-700 hover:-skew-x-6">
                             <FiLink2 size={22} />
-                            <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank' className="font-bold text-lg">Fully Managed Data Synchronization Pipeline</Link>
+                            <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank' className="font-bold text-lg text-gray-500">Fully Managed Data Synchronization Pipeline</Link>
                         </div>
 
                         <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank'></Link>
@@ -128,17 +128,17 @@ const Work = () => {
                     <div className="w-full flex justify-center gap-4">
                         <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
                             <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
+                            href="https://github.com/chik0di/cde-bootcamp/blob/main/eu-db-migration/pipeline.drawio.png"
                             target="_blank"
                             className="capitalize rounded-full text-sm"
                             >
-                            Github
+                            Architecture
                             </Link>
                         </button>
 
                         <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
                             <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
+                            href="https://github.com/chik0di/cde-bootcamp/blob/main/eu-db-migration/doc.MD"
                             target="_blank"
                             className="capitalize rounded-full text-sm"
                             >
@@ -155,13 +155,13 @@ const Work = () => {
                     <div className="flex justify-between items-center">
                         <div className="top mt-2 flex items-center gap-2 hover:translate-y-1 transition duration-700 hover:-skew-x-6">
                             <FiLink2 size={22} />
-                            <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank' className="font-bold text-lg">End-to-End New York Times ELT Pipeline</Link>
+                            <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank' className="font-bold text-lg text-gray-500">End-to-End New York Times ELT Pipeline</Link>
                         </div>
 
                         <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank'></Link>
                     </div>
 
-                    <p className="text-sm mb-3">
+                    <p className="text-sm mb-3 text-black">
                         Designed and implemented an ELT pipeline for New York Times data, orchestrating API ingestion, warehouse loading, and SQL-based transformations for analytical consumption.
                     </p>
                     
@@ -170,19 +170,10 @@ const Work = () => {
                     </p>
 
                     <div className="w-full flex justify-center gap-4">
+                        
                         <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
                             <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
-                            target="_blank"
-                            className="capitalize rounded-full text-sm"
-                            >
-                            Github
-                            </Link>
-                        </button>
-
-                        <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
-                            <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
+                            href="https://github.com/chik0di/cde-bootcamp/blob/main/newyorktimes-elt/doc.MD"
                             target="_blank"
                             className="capitalize rounded-full text-sm"
                             >
@@ -198,7 +189,7 @@ const Work = () => {
                     <div className="flex justify-between items-center">
                         <div className="top mt-2 flex items-center gap-2 hover:translate-y-1 transition duration-700 hover:-skew-x-6">
                             <FiLink2 size={22} />
-                            <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank' className="font-bold text-lg">Kaggle Datasets Projects</Link>
+                            <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank' className="font-bold text-lg text-gray-500">Kaggle Datasets Projects</Link>
                         </div>
 
                         <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank'></Link>
@@ -209,27 +200,17 @@ const Work = () => {
                     </p>
                     
                     <p className="text-sm text-black">
-                            <strong>Stack:</strong> Python, PostgreSQL, Google Sheets, Terraform, AWS SSM, Amazon S3, Snowflake, dbt, Apache Airflow, Docker, Power BI
+                            <strong>Stack:</strong> Web Scraping, API Ingestion, Data Pipeline Design, Data Cleaning And Normalization, Schema Design, Feature Engineering, Data Validation And Quality Checks, Dataset Versioning, Analytics-Ready Dataset Engineering
                     </p>
 
                     <div className="w-full flex justify-center gap-4">
                         <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
                             <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
+                            href="https://www.kaggle.com/chik0di"
                             target="_blank"
                             className="capitalize rounded-full text-sm"
                             >
-                            Github
-                            </Link>
-                        </button>
-
-                        <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
-                            <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
-                            target="_blank"
-                            className="capitalize rounded-full text-sm"
-                            >
-                            Documentation
+                            Datasets
                             </Link>
                         </button>
                         </div>
@@ -242,7 +223,7 @@ const Work = () => {
                     <div className="flex justify-between items-center">
                         <div className="top mt-2 flex items-center gap-2 hover:translate-y-1 transition duration-700 hover:-skew-x-6">
                             <FiLink2 size={22} />
-                            <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank' className="font-bold text-lg">Paw & Heart Animal Rescue Charity solution</Link>
+                            <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank' className="font-bold text-lg text-gray-500">Paw & Heart Animal Rescue Charity solution</Link>
                         </div>
 
                         <Link href={'https://www.linkedin.com/pulse/cry-changed-everything-maternal-care-in-africa-0ptof'} target='_blank'></Link>
@@ -253,7 +234,7 @@ const Work = () => {
                     </p>
                     
                     <p className="text-sm text-black">
-                            <strong>Stack:</strong> Python, PostgreSQL, Google Sheets, Terraform, AWS SSM, Amazon S3, Snowflake, dbt, Apache Airflow, Docker, Power BI
+                            <strong>Stack:</strong> Microsoft Power Apps, Power Automate, Dataverse, Power BI, User-centric design
                     </p>
 
                     <div className="w-full flex justify-center gap-4">
