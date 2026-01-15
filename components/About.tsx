@@ -1,12 +1,14 @@
-import { Luckiest_Guy } from 'next/font/google'
-import { FiDroplet, FiDownloadCloud, FiFacebook, FiLinkedin, FiInstagram } from 'react-icons/fi'
+import { SiGithub } from "react-icons/si"
+import { SiCredly } from "react-icons/si"
+import { FaTwitter, FaLinkedinIn } from "react-icons/fa6"
+import { SiMedium } from "react-icons/si"
+import { FiDroplet, FiDownloadCloud} from 'react-icons/fi'
 import Link from "next/link";
-const luckiest = Luckiest_Guy({ subsets: ['latin'], weight: ['400'] })
 
 export default function About() {
     return (
         <main className='bg-white dark:bg-slate-700 w-full h-[36rem] rounded-3xl mt-2 p-7 md:p-14 overflow-hidden overflow-y-auto lg:overflow-y-hidden hover:overflow-y-auto hover:shadow-lg duration-700'>
-            <h1 className={`capitalize font-bold text-4xl flex items-center gap-3 ${luckiest.className}`}>About Me <span className="text-6xl"></span></h1>
+            <h1 className={`capitalize font-bold text-4xl flex items-center gap-3 font-luckiest`}>About Me <span className="text-6xl"></span></h1>
                 <div className="mt-4 space-y-4">
                 <p>
                     I design data systems the way architects design cities: with structure, intent,
@@ -35,23 +37,26 @@ export default function About() {
                 </div>
 
             <div className="icons flex gap-3 mt-3 lg:hidden">
-                <Link href={'https://www.facebook.com/pearl.ekwe777'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
-                    <FiFacebook size={16} className='text-blue-500' />
+                <Link href={'https://github.com/chik0di'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
+                    <SiGithub size={16} className='text-black'/>
                 </Link>
-                <Link href={'https://www.linkedin.com/in/pearl-ekwe-609292210/'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
-                    <FiLinkedin size={16} className='text-sky-500' />
+                <Link href={'https://linkedin.com/in/chikodi-obu-278b5b264'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
+                    <FaLinkedinIn size={16} className='text-sky-500' />
                 </Link>
-                <Link href={'https://www.instagram.com/p.e.ar.l?igsh=M29nOWppNzY0MHBk'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
-                    <FiInstagram size={16} className='text-indigo-500' />
+                <Link href={'https://x.com/emc0de'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
+                    <FaTwitter size={16} className='text-blue-900' />
                 </Link>
-                <Link href={'https://www.instagram.com/p.e.ar.l?igsh=M29nOWppNzY0MHBk'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
-                    <FiInstagram size={16} className='text-indigo-500' />
+                <Link href={'https://medium.com/@chikodiobu'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
+                    <SiMedium size={16} className='text-black' />
+                </Link>
+                <Link href={'https://www.credly.com/users/chikodi-obu/badges#credly'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
+                    <SiCredly size={20} className='text-black' />
                 </Link>
             </div>
 
             <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gray-500 lg:hidden rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
                 <FiDownloadCloud className='text-white' />
-                <Link href={'/PearlCV.pdf'} target="_blank" className="capitalize rounded-full text-sm">Download Resume</Link>
+                <Link href={'https://acrobat.adobe.com/id/urn%3Aaaid%3Asc%3AEU%3Ab8932f94-f3c3-4d9b-8397-ec5cdad1a471/?filetype=application%2Fpdf'} target="_blank" className="capitalize rounded-full text-sm">View Resume</Link>
             </button>
 
             <hr className="my-6" />

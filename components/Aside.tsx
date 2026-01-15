@@ -1,4 +1,4 @@
-import { FiDownloadCloud, FiMail, FiMapPin, FiPhone } from 'react-icons/fi'
+import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi'
 import { SiGithub } from "react-icons/si"
 import { SiCredly } from "react-icons/si"
 import { FaTwitter, FaLinkedinIn } from "react-icons/fa6"
