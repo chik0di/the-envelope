@@ -2,7 +2,8 @@ import { SiGithub } from "react-icons/si"
 import { SiCredly } from "react-icons/si"
 import { FaTwitter, FaLinkedinIn } from "react-icons/fa6"
 import { SiMedium } from "react-icons/si"
-import { FiDroplet, FiDownloadCloud} from 'react-icons/fi'
+import { FiDroplet } from 'react-icons/fi'
+import { MdOutlineViewAgenda } from "react-icons/md";
 import Link from "next/link";
 
 export default function About() {
@@ -55,7 +56,7 @@ export default function About() {
             </div>
 
             <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gray-500 lg:hidden rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
-                <FiDownloadCloud className='text-white' />
+                <MdOutlineViewAgenda className='text-white' />
                 <Link href={'https://acrobat.adobe.com/id/urn%3Aaaid%3Asc%3AEU%3Ab8932f94-f3c3-4d9b-8397-ec5cdad1a471/?filetype=application%2Fpdf'} target="_blank" className="capitalize rounded-full text-sm">View Resume</Link>
             </button>
 
