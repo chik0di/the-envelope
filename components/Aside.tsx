@@ -28,7 +28,7 @@ export default function Aside() {
                 <Link href={'https://x.com/emc0de'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
                     <FaTwitter size={16} className='text-blue-900' />
                 </Link>
-                <Link href={'https://medium.com/@chikodiobu'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
+                <Link href={'https://medium.com/@chik0di'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
                     <SiMedium size={16} className='text-black' />
                 </Link>
                 <Link href={'https://www.credly.com/users/chikodi-obu/badges#credly'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
