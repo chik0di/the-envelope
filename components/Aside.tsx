@@ -1,9 +1,10 @@
 import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi'
 import { SiGithub } from "react-icons/si"
 import { SiCredly } from "react-icons/si"
-import { FaTwitter, FaLinkedinIn } from "react-icons/fa6"
+import { FaKaggle, FaLinkedinIn } from "react-icons/fa6"
 import { SiMedium } from "react-icons/si"
-import { MdOutlineViewAgenda } from "react-icons/md";
+import { MdOutlineViewAgenda } from "react-icons/md"
+import { SiKaggle } from "react-icons/si";
 import Link from "next/link"
 
 export default function Aside() {
@@ -23,10 +24,10 @@ export default function Aside() {
                     <SiGithub size={16} className='text-black'/>
                 </Link>
                 <Link href={'https://linkedin.com/in/chikodi-obu-278b5b264'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
-                    <FaLinkedinIn size={16} className='text-sky-500' />
+                    <FaLinkedinIn size={16} className='text-sky-600' />
                 </Link>
-                <Link href={'https://x.com/emc0de'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
-                    <FaTwitter size={16} className='text-blue-900' />
+                <Link href={'https://www.kaggle.com/chik0di'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
+                    <FaKaggle size={16} className='text-blue-900' />
                 </Link>
                 <Link href={'https://medium.com/@chik0di'} target="_blank" className="bg-[#F2F7FC] dark:bg-slate-300 p-4 rounded-lg">
                     <SiMedium size={16} className='text-black' />
