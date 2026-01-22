@@ -50,7 +50,7 @@ const Work = () => {
 
                         <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
                             <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
+                            href="https://sites.google.com/view/coretelecom/"
                             target="_blank"
                             className="capitalize rounded-full text-sm"
                             >
@@ -84,7 +84,7 @@ const Work = () => {
                     <div className="w-full flex justify-center gap-4">
                         <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
                             <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
+                            href="https://github.com/chik0di/eu-film-db"
                             target="_blank"
                             className="capitalize rounded-full text-sm"
                             >
@@ -94,7 +94,7 @@ const Work = () => {
 
                         <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
                             <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
+                            href="https://sites.google.com/view/eu-film-db"
                             target="_blank"
                             className="capitalize rounded-full text-sm"
                             >
@@ -150,7 +150,7 @@ const Work = () => {
 
 
                 <div className="bg-[#FFEBD1] p-5 rounded-xl">
-                    <Image className='rounded-lg mb-4' src={'/New York Times ETL Thumbnail.jpg'} width={10000} height={2} alt='nadice' />
+                    <Image className='rounded-lg mb-4' src={'/New York Times ETL thumbnail.jpg'} width={10000} height={2} alt='nadice' />
 
                     <div className="flex justify-between items-center">
                         <div className="top mt-2 flex items-center gap-2 hover:translate-y-1 transition duration-700 hover:-skew-x-6">
@@ -240,21 +240,21 @@ const Work = () => {
                     <div className="w-full flex justify-center gap-4">
                         <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
                             <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
+                            href="https://sites.google.com/view/paw-heart-animal-rescue"
                             target="_blank"
                             className="capitalize rounded-full text-sm"
                             >
-                            Github
+                            Static App
                             </Link>
                         </button>
 
                         <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
                             <Link
-                            href="https://github.com/chik0di/coretelecoms-data-platform"
+                            href="https://youtu.be/6mJGJY77WIg"
                             target="_blank"
                             className="capitalize rounded-full text-sm"
                             >
-                            Documentation
+                            Demo
                             </Link>
                         </button>
                         </div>
