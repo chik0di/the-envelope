@@ -57,6 +57,16 @@ const Work = () => {
                             Documentation
                             </Link>
                         </button>
+
+                        <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
+                            <Link
+                            href="https://app.powerbi.com/view?r=eyJrIjoiMWM4ODQxMTQtMWM4OS00NjI2LWEyMTItMjc5NjRhNWEyNTljIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9"
+                            target="_blank"
+                            className="capitalize rounded-full text-sm"
+                            >
+                            Dashboard
+                            </Link>
+                        </button>
                         </div>
                 </div>
 
@@ -99,6 +109,16 @@ const Work = () => {
                             className="capitalize rounded-full text-sm"
                             >
                             Documentation
+                            </Link>
+                        </button>
+
+                        <button className="w-44 mt-4 flex items-center gap-2 p-3 bg-gradient-to-r from-[#FF9C1A] to-[#EC1B09] rounded-full justify-center text-[#F2F5F9] text-sm hover:scale-105 hover:shadow-lg border-2 duration-700">
+                            <Link
+                            href="https://app.powerbi.com/view?r=eyJrIjoiOTAxZjBiZDUtZDE1ZC00YzU2LWExODctOTU2MjFhM2ZiY2YyIiwidCI6IjFmZWExNGY1LTNjYjYtNGM1OC1hYjJiLWY4MGU3ZjQ1OWVkMSIsImMiOjh9"
+                            target="_blank"
+                            className="capitalize rounded-full text-sm"
+                            >
+                            Dashboard
                             </Link>
                         </button>
                         </div>
